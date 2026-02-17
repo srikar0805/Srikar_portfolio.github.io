@@ -870,6 +870,61 @@ form textarea {
   text-decoration: underline;
 }
 
+/* Portfolio Filters */
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+  padding: 10px 28px;
+  border: 2px solid var(--main-color);
+  background: transparent;
+  color: var(--main-color);
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: linear-gradient(135deg, var(--main-color), var(--secondary-color));
+  color: #fff;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px var(--shadow);
+}
+
+.portfolio-card {
+  transition: all 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
+}
+
+.portfolio-card.hidden {
+  display: none;
+}
+
+/* Typed Cursor */
+.typed-cursor {
+  font-weight: 100;
+  color: var(--main-color);
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.role {
+  min-height: 2.5rem;
+}
+
 /* Responsive Design */
 @media (max-width: 991px) {
   header {
