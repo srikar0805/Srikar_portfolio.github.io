@@ -29,7 +29,6 @@ Srikar_portfolio.github.io/
 │   ├── scene.js            WebGL: background scene and hologram portrait
 │   ├── ui.js               scroll reveal, progress bar, active nav, card tilt
 │   └── face-points.js      generated point-cloud data for the portrait
-├── Srikar_Resume_Company.pdf
 ├── index-legacy.html       previous version of the site, kept for reference
 ├── css/, js/, images/, myself.jpeg   assets used only by index-legacy.html
 └── README.md
